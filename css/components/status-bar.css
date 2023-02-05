@@ -1,0 +1,13 @@
+#status-bar {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 3px;
+}
+
+.status-bar__column:first-child span {
+    margin-right: 5px;
+}
